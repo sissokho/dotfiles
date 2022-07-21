@@ -1,0 +1,6 @@
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+alias sa='sail artisan'
+alias dc='docker-compose'
+alias dce='docker-compose exec'
+alias dcepa='docker-compose exec app php artisan'
+alias dcr='docker-compose run'

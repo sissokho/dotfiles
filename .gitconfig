@@ -5,3 +5,5 @@
 	st = status
 	co = commit
 	br = branch
+[core]
+	editor = vim

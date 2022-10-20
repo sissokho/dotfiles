@@ -6,7 +6,10 @@
 	co = commit
 	br = branch
 	ch = checkout
+	sw = switch
 [core]
 	editor = vim
 [init]
 	defaultBranch = main
+[push]
+	autoSetupRemote = true

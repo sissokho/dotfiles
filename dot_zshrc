@@ -115,6 +115,7 @@ ARTISAN_OPEN_ON_MAKE_EDITOR=code
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Aliases
+alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
 alias a="artisan"
 alias tinker="artisan tinker"
 alias rector="vendor/bin/rector"

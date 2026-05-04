@@ -118,8 +118,9 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
 alias a="artisan"
 alias tinker="artisan tinker"
-alias rector="vendor/bin/rector"
+alias rector="./vendor/bin/rector"
 alias cz="chezmoi"
+alias pint="./vendor/bin/pint"
 # Initialize starship
 eval "$(starship init zsh)"
 export PATH=$HOME/.local/bin:$PATH

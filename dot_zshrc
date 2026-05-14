@@ -121,6 +121,7 @@ alias tinker="artisan tinker"
 alias rector="./vendor/bin/rector"
 alias cz="chezmoi"
 alias pint="./vendor/bin/pint"
+alias pest="./vendor/bin/pest"
 # Initialize starship
 eval "$(starship init zsh)"
 export PATH=$HOME/.local/bin:$PATH
